@@ -7,3 +7,89 @@ body {
   main {
     flex: 1 0 auto;
   }
+  header{
+    background-color: rgba(45, 206, 224, 0.751);
+    overflow: hidden;
+    padding: 15px 10px;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+header a{
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 20px;
+}
+#logo{
+  font-size: 25px;
+  font-weight: bold;
+}
+header a:hover{
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+header a:active{
+  background-color: rgb(50, 238, 13);
+  color: white;
+}
+.esquerda{
+  float: right;
+}
+.imgs{
+  width: 800px;
+  height: 700px;
+  float: left;
+  display: flex;
+  margin-left: 140px;
+  
+}
+footer{
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(45, 206, 224, 0.751);
+  color: black;
+  text-align: center;
+}
+.link-navegacao{
+  margin-left: 30px;
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+}
+.centralizar a:hover{
+  background-color: rgba(3, 190, 242, 0.287);
+    font-weight: bold;
+    border-color: blue;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+.centralizar{
+  text-align: center;
+}
+.texto{
+  font-size: 25px;
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.imagens-links{
+  float: left;
+  margin-left: 110px;
+}
+.imagens-links img{
+  width: 300px;
+}
+.imagens-links p {
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.texto a{
+  text-decoration: none;
+}
