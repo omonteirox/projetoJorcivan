@@ -104,10 +104,7 @@ h1{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
 }
-main{
-  margin-left: 10%;
-  margin-right: 10%;
-}
+
 
 span{
   font-size: 20px;
@@ -144,10 +141,14 @@ label {
   padding: 12px 12px 12px 0;
   display: inline-block;
 }
-main {
+form {
   border-radius: 30px;
   background-color: #b5b5b5ab;
   padding: 20px;
+}
+.form{
+  margin-left: 10%;
+  margin-right: 10%;
 }
 .centralize{
   margin-left: 40%;
