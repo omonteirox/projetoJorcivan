@@ -104,10 +104,11 @@ h1{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 20px;
 }
-
-input{
-  margin-top: 10px;
+main{
+  margin-left: 10%;
+  margin-right: 10%;
 }
+
 span{
   font-size: 20px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -135,7 +136,7 @@ input[type=text], select, textarea,input[type=password],input[type=email],input[
   width: 80%;
   padding: 12px;
   border: 1px solid #ccc;
-  border-radius: 100px;
+  border-radius: 20px;
   resize: vertical;
 }
 
