@@ -6,6 +6,7 @@ body {
 
   main {
     flex: 1 0 auto;
+    margin-bottom: 5px;
   }
   header{
     background-color: rgba(45, 206, 224, 0.751);
