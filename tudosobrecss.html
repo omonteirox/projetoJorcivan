@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tudo sobre CSS</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <a title="Atividade de Hospedagem de site" href="index.html" id="logo">Atividade de Hospedagem de Site</a>
+    <div class="esquerda">
+      <a title="Usando links" href="usandolinks.html">Usando Links</a>
+      <a title="Usando Imagens" href="usandoimagelinks.html">Usando imagens</a>
+      <a title="O que é github?" href="github.html">O que é github?</a>
+      <a title="Mais imagens sem Direitos autorias" href="todasimagens.html">Mais imagens sem direitos autorais</a>
+      <a title="CSS?" href="atividadecss.html">CSS</a>
+      <a title="Usando Forms" href="usandoforms.html">Forms</a>
+      <a title="Imagem CSS" href="usandocss.html">Usando imagens com CSS</a>
+    </div>
+  </header>
+  <div class="title">
+    <h2 style="text-align: center; width: 100%;">
+      Colocando Bordas nas Imagens:
+    </h2>
+  </div>
+
+  <div class="img-bordas">
+    <img src="imgs/imagem-html(1).jpg" alt="img1" class="img-radius">
+    <p>
+      Para uma imagem com bordas:
+    </p>
+    <div class="code">
+      <code>
+          img{
+            border-radius:8px;
+          }
+        </code>
+    </div>
+  </div>
+  <div class="img-bordas">
+    </code>
+    <img src="imgs/imagem-html(1).jpg" alt="img1" class="img-radius-circular">
+    <p>
+      Para uma imagem Circular:
+    </p>
+    <div class="code">
+      <code>
+        img{
+          border-radius:40%;
+        }
+      </div>
+    </div>
+    <div class="title">
+    <h2 style="text-align: center; width: 100%;">
+      Imagem com Thumbnail: Esquerda sem link, direita com Link
+    </h2>
+  </div>
+  <div class="thumbnail">
+    <img src="imgs/imagem-html(1).jpg" alt="img1">
+    <div class="code">
+      <code>
+        img {
+          border: 1px solid #ddd; <br>
+          border-radius: 4px; <br>
+          padding: 5px; <br>
+          width: 150px; <br>
+        }
+      </code>
+    </div>
+  </div>
+  <div class="thumbnail t2">
+    <a href="imgs/imagem-html(1).jpg">
+      <img src="imgs/imagem-html(1).jpg" alt="img1">
+    </a>
+    <div class="code">
+      <code>
+      img {
+        border: 1px solid #ddd; <br>
+        border-radius: 4px; <br>
+        padding: 5px; <br>
+        width: 150px; <br>
+      }
+      <br>
+      img:hover { <br>
+        box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+      } <br>
+    </code>
+    </div>
+  </div>
+  <div class="title">
+    <h2 style="text-align: center; width: 100%;">
+      Imagem Polaroid
+    </h2>
+  </div>
+  <div class="polaroid">
+    <img src="imgs/imagem-html(1).jpg" alt="img1">
+    <p>Polaroid</p>
+  </div>
+  <div class="polaroid">
+    <img src="imgs/imagem-html(1).jpg" alt="img1">
+    <p>Polaroid</p>
+  </div>
+  <div class="title">
+    <h2 style="text-align: center; width: 100%;">
+      Imagem Trasparente
+    </h2>
+  </div>
+  <div class="opacidade">
+    <img src="imgs/imagem-html(1).jpg" alt="img1">
+    <p>Opacidade: Default</p>
+  </div>
+  <div class="opacidade meia">
+    <img src="imgs/imagem-html(1).jpg" alt="img1">
+    <p>Opacidade: 0.5 (50%)</p>
+  </div>
+  <div class="opacidade vinteporcento">
+    <img src="imgs/imagem-html(1).jpg" alt="img1">
+    <p>Opacidade: 0.2 (80%)</p>
+  </div>
+  <div class="title">
+    <h2 style="text-align: center; width: 100%;">
+      Filtros de Imagens:
+    </h2>
+  </div>
+<div class="filtroimg">
+  <img src="imgs/imagem-html(1).jpg" alt="img1" class="blur">
+  <img src="imgs/imagem-html(1).jpg" alt="img1" class="brightness">
+  <img src="imgs/imagem-html(1).jpg" alt="img1" class="contrast">
+  <img src="imgs/imagem-html(1).jpg" alt="img1" class="grayscale">
+  <img src="imgs/imagem-html(1).jpg" alt="img1" class="huerotate">
+  <img src="imgs/imagem-html(1).jpg" alt="img1" class="invert">
+  <img src="imgs/imagem-html(1).jpg" alt="img1" class="opacity">
+  <img src="imgs/imagem-html(1).jpg" alt="img1" class="saturate">
+  <img src="imgs/imagem-html(1).jpg" alt="img1" class="sepia">
+  <img src="imgs/imagem-html(1).jpg" alt="img1" class="shadow">
+</div>
+  <!-- <p>Material retirado do site: <a href="https://www.w3schools.com/css/css3_images.asp">CSS Styling Images - W3Schools</a></p> -->
+  <footer>
+    <h5>Atividade de Programação para WEB 1</h5>
+    <b>
+      <p>Professor - Jorcivam</p>
+    </b>
+    © 2022 Direitos Reservados - Gustavo Monteiro
+  </footer>
+
+</body>
+
+</html>
