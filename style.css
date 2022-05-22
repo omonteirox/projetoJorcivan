@@ -42,12 +42,17 @@ header a:active{
 .esquerda{
   float: right;
 }
+.imgs img{
+  max-width: 100%;
+  height: auto;
+}
 .imgs{
-  width: 800px;
-  height: 700px;
+  width: 43%;
+  height: auto;
   float: left;
   display: flex;
-  margin-left: 120px;
+  margin-left: 7%;
+  margin-bottom: 1%;
   
 }
 footer{
@@ -87,7 +92,8 @@ footer{
   margin-left: 110px;
 }
 .imagens-links img{
-  width: 300px;
+  max-width: 100%;
+  height: auto;
 }
 .imagens-links p {
   font-size: 20px;
@@ -325,3 +331,31 @@ margin-bottom: 1%;
 .saturate {filter: saturate(7);}
 .sepia {filter: sepia(100%);}
 .shadow {filter: drop-shadow(8px 8px 10px green);}
+
+.gallery{
+  border: 1px solid #ccc;
+}
+.gallery:hover {
+  border: 1px solid #777;
+}
+.gallery img{
+  width: 100%;
+  height: auto;
+}
+.responsive{
+  width: 19%;
+  padding: 0 6px;
+  float: left;
+}
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
