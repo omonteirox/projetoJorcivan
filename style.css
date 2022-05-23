@@ -359,3 +359,20 @@ margin-bottom: 1%;
     width: 100%;
   }
 }
+.ref{
+  background-color: rgba(157, 155, 155, 0.914);
+  text-align: center;
+  display: inline-block;
+  margin-left: 40%;
+  padding: 1%;
+  color: white;
+}
+.ref a{
+  text-decoration: underline;
+  color: white;
+  
+}
+.ref a:hover{
+  color: #e13232;
+  font-size: 15px;
+}
