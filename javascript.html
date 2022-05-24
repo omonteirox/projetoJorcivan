@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Utilizando Javascript</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylejs.css">
     <script src="js.js"></script>
 </head>
 <body>
@@ -22,6 +23,32 @@
         <img src="imgs/bulboff.gif" alt="lampida" onclick="mudarImagem()" id="lampada">
     </div>
 </div>
+<div class="container">
+    <h3>Vamos percorrer uma lista com x Elementos com algum texto que você vai inserir?</h3>
+    <label for="numeroX">Insira um número: </label>
+    <input id="numeroX" type="number"> <br>
+    <label for="textoX">Insira o Texto: </label>
+    <input id="TextoX" type="text"> <br>
+    <div class="buttons">
+        <input type="button" value="Percorrer" onclick="percorrerTudo()">
+        <input type="button" value="Limpar" onclick="limpar()">
+    </div>
+    <ul id="ulPercorrer"></ul>
+</div>
+<div class="container">
+    <h3>Vamos gerar objetos geométricos agora?(Obs, você só pode clicar em um elemento por vez)</h3>
+    <input type="checkbox" name="Selecione seu objeto" id="quadrado">
+    <label for="quadrado">Quadrado</label><br>
+    <input type="checkbox" name="Selecione seu objeto" id="circulo">
+    <label for="circulo">Circulo</label> <br>
+    <input type="checkbox" name="Selecione seu objeto" id="triangulo">
+    <label for="triangulo">Triangulo</label> <br>
+    <div class="buttons">
+        <input type="button" value="Gerar" onclick="gerarObjeto()">
+        <input type="button" value="Limpar" onclick="limpar()">
+    </div>
+    <div id="geometria"></div>
+    </div>
 <!-- Footer vem aqui -->
 </body>
 </html>

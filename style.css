@@ -383,25 +383,4 @@ margin-bottom: 1%;
   color: #e13232;
   font-size: 15px;
 }
-.container{
- padding: 1%;
-}
-.container p{
-  text-align: justify;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.container h3{
-  text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 25px;
-}
-.lampada{
-  width: 5%;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-}
-.lampada img{
-  width: 100%;
-  height: auto;
-}
+
