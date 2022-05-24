@@ -228,7 +228,14 @@ border-radius: 500px;
   text-align: center;
   font-weight: bold;
 }
-
+.background-dog{
+  background-image: url(imgs/dog_caramelo.gif);
+  background-size: 15%;
+  background-attachment: fixed;
+}
+.background-dog .title{
+  background-color: white;
+}
 .img-bordas img{
   width: 100%;
   height: auto;
