@@ -49,3 +49,11 @@ function gerarObjeto(){
         geometria.insertAdjacentHTML("afterbegin", `<div class="triangulo"> </div>`)
     }
 }
+function mostrarData(){
+    let data = new Date()
+    let paragrafo = document.getElementById('textoData')
+    paragrafo.innerHTML = data.toLocaleDateString()
+}
+function Alerta(){
+    alert('Eu sou um alerta')
+}
