@@ -1,0 +1,62 @@
+.buttons{
+    text-align: center;
+    width: 100%;
+    height:auto;
+    padding: 1%;
+}
+.buttons input{
+    width: 35%;
+    height:auto;
+}
+.container{
+    padding: 1%;
+   }
+.container p{
+     text-align: justify;
+     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+.container h3{
+     text-align: center;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+     font-size: 25px;
+   }
+.lampada{
+     width: 5%;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+   }
+.lampada img{
+     width: 100%;
+     height: auto;
+   }
+.container input{
+    margin-top: 1%;
+}
+#geometria div{
+    margin: 5%;
+    float: left;
+}
+.circulo{
+    background:#fa5339;
+    color:#fff;
+    width:100px;
+    height:100px;
+    float:left;
+    border:1px solid #d63d26;
+    border-radius: 50%;
+  }
+.triangulo{
+        width: 0;
+        height: 0;
+        border: 50px solid;
+        border-color: white white #fa5339 white;
+}
+.quadrado{
+    background:#fa5339;
+    color:#fff;
+    width:100px;
+    height:100px;
+    float:left;
+    border:1px solid #d63d26;
+  }
