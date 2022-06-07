@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Utilizando Formulários com HTML5 E CSS3</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <a title="Atividade de Hospedagem de site" href="index.html" id="logo">Atividade de Hospedagem de Site</a>
+        <div class="esquerda">
+            <a title="Usando links" href="usandolinks.html">Usando Links</a>
+            <a title="Usando Imagens" href="usandoimagelinks.html">Usando imagens</a>
+            <a title="O que é github?" href="github.html">O que é github?</a>
+            <a title="Mais imagens sem Direitos autorias" href="todasimagens.html">Mais imagens sem direitos autorais</a>
+            <a title="CSS?" href="atividadecss.html">CSS</a>
+            <a title="Usando Forms" href="usandoforms.html">Forms</a>
+            <a title="Imagem CSS" href="usandocss.html">Usando imagens com CSS</a>
+            <a title="Usando Javascript" href="javascript.html">Usando Javascript</a>
+        </div>
+    </header>
+    <main class="form">
+        <h1>Utilizando Formulários com html5 e css3</h1>
+        <form action="POST" id="formulario">
+            <label for="nomeUser">Insira seu Nome:</label>
+            <input type="text" id="nomeUser"> <br>
+            <span>CRIE SEU USUÁRIO:</span> <br>
+            <label for="username">Nome de usuário:</label>
+            <input type="text" id="username" name="username"><br>
+            <label for="pwd">Senha:</label>
+            <input type="password" id="pwd" name="pwd"> <br>
+            <label for="email">Digite seu Email:</label>
+            <input type="email" id="email" name="email"> <br>
+            <label for="myfile">Envie uma foto sua:</label> <br>
+            <input type="file" id="myfile" name="myfile"> <br>
+            <label for="quantity">Quantos anos você tem:</label>
+            <input type="number" id="age" name="age" min="1" max="100"> <br>
+            <label for="vol">Dificuldade da matéria:</label>
+            <input type="range" id="vol" name="vol" min="0" max="100"> <br>
+            <span>Qual sua linguagem favorita?</span>
+            <br>
+            <input type="radio" name="Javascript">
+            <label for="Javascript">Javascript</label> <br>
+            <input type="radio" name="C#">
+            <label for="C#">C#</label> <br>
+            <input type="radio" name="C++">
+            <label for="C++">C++</label> <br>
+            <input type="radio" name="GoLang">
+            <label for="GoLang">GoLang</label> <br>
+            <span>Qual desses você tem?</span>
+            <br>
+            <input type="checkbox" id="automovel1" name="automovel1" value="Bicicleta">
+            <label for="vehicle1"> Eu tenho uma bicicleta</label><br>
+            <input type="checkbox" id="automovel2" name="automovel2" value="Carro">
+            <label for="vehicle2"> Eu tenho um Carro</label><br>
+            <input type="checkbox" id="automovel3" name="automovel3" value="Camelo">
+            <label for="vehicle3"> Eu tenho um Camelo</label>
+            <br>
+            <label for="birthday">Data de Nascimento:</label>
+            <input type="date" id="birthday" name="birthday"> <br>
+            <label for="txtArea">Fale um pouco de você:</label> <br>
+            <textarea name="txtArea" id="" cols="3" rows="4"></textarea>
+            <div class="centralize">
+                <input type="submit" value="Enviar">
+                <input type="reset">
+                <input type="button" onclick="alert('Você ganhou uma surpresa!!!')" value="Surpresa!">
+            </div>
+        </form>
+    </main>
+    <footer>
+        <h5 >Atividade de Programação para WEB 1</h5>
+        <b>
+          <p>Professor - Jorcivam</p>
+        </b>
+      © 2022 Direitos Reservados - Gustavo Monteiro
+</footer>
+</body>
+</html>
