@@ -1,3 +1,6 @@
+$(function(){
+    $("#menu").load("../components/nav.html");
+  });
 function mudarImagem(){
     let imagem = document.getElementById('lampada');
     if (imagem.src.match("bulbon"))

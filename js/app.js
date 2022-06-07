@@ -1,8 +1,3 @@
-// $( document ).ready(()=>{
-//   $("#menu").load("nav.html");
-//     $(".dropdown-trigger").dropdown();
-// })
 $(function(){
-    $("#menu").load("nav.html");
-    $(".dropdown-trigger").dropdown();
+    $("#menu").load("components/nav.html");
   });

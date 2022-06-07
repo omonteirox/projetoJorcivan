@@ -9,36 +9,13 @@ body {
     flex: 1 0 auto;
     margin-bottom: 5  px;
   }
-  header{
-    background-color: rgba(45, 206, 224, 0.751);
-    overflow: hidden;
-    padding: 15px 10px;
-    margin-bottom: 10px;
-    border-radius: 40px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
-header a{
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 20px;
-}
+
+
 #logo{
   font-size: 25px;
   font-weight: bold;
 }
-header a:hover{
-  background-color: rgb(255, 255, 255);
-  color: black;
-}
-header a:active{
-  background-color: rgb(50, 238, 13);
-  color: white;
-}
+
 .esquerda{
   float: right;
 }
