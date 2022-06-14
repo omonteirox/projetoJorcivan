@@ -4,3 +4,10 @@
 *{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+.dino a{
+    text-decoration: none;
+    color: rgba(130,72,32,255);
+}
+.dino a:hover{
+    color: black;
+}
