@@ -31,7 +31,7 @@ let questions = [
     options: ["Resposta Certa", "teste", "teste", "teste"],
   },
   {
-    numb: 63,
+    numb: 6,
     question: "teste",
     answer: "Resposta Certa",
     options: ["Resposta Certa", "teste", "teste", "teste"],
