@@ -1,6 +1,6 @@
 $(function () {
-  $("#menu").load("components/nav.html");
-  $("#footer").load("components/footer.html");
+  $("#menu").load("../components/nav.html");
+  $("#footer").load("../components/footer.html");
   $(".carousel").carousel(
     {
       interval:500
