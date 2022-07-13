@@ -4,7 +4,9 @@ body {
     /* flex-direction: row; */
 
   }
-
+*{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
   main {
     flex: 1 0 auto;
     margin-bottom: 5  px;
